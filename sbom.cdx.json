@@ -1,0 +1,243 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:24b11f0e-3503-57c5-bb57-ce504fe3722a",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:37:26Z",
+  "component": {
+   "type": "application",
+   "name": "CHISEL",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CHISEL@83b357604d34",
+   "purl": "pkg:generic/anticloud/CHISEL@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "github.com/armon/go-socks5",
+   "version": "v0.0.0-20160902184237-e75332964ef5",
+   "purl": "pkg:golang/github.com/armon/go-socks5@v0.0.0-20160902184237-e75332964ef5",
+   "bom-ref": "go/github.com/armon/go-socks5@v0.0.0-20160902184237-e75332964ef5"
+  },
+  {
+   "type": "library",
+   "name": "github.com/fsnotify/fsnotify",
+   "version": "v1.10.1",
+   "purl": "pkg:golang/github.com/fsnotify/fsnotify@v1.10.1",
+   "bom-ref": "go/github.com/fsnotify/fsnotify@v1.10.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/gorilla/websocket",
+   "version": "v1.5.3",
+   "purl": "pkg:golang/github.com/gorilla/websocket@v1.5.3",
+   "bom-ref": "go/github.com/gorilla/websocket@v1.5.3"
+  },
+  {
+   "type": "library",
+   "name": "github.com/jpillora/backoff",
+   "version": "v1.0.0",
+   "purl": "pkg:golang/github.com/jpillora/backoff@v1.0.0",
+   "bom-ref": "go/github.com/jpillora/backoff@v1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/jpillora/opts",
+   "version": "v1.8.1",
+   "purl": "pkg:golang/github.com/jpillora/opts@v1.8.1",
+   "bom-ref": "go/github.com/jpillora/opts@v1.8.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/jpillora/requestlog",
+   "version": "v1.0.0",
+   "purl": "pkg:golang/github.com/jpillora/requestlog@v1.0.0",
+   "bom-ref": "go/github.com/jpillora/requestlog@v1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/jpillora/sizestr",
+   "version": "v1.0.0",
+   "purl": "pkg:golang/github.com/jpillora/sizestr@v1.0.0",
+   "bom-ref": "go/github.com/jpillora/sizestr@v1.0.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/crypto",
+   "version": "v0.55.0",
+   "purl": "pkg:golang/golang.org/x/crypto@v0.55.0",
+   "bom-ref": "go/golang.org/x/crypto@v0.55.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/net",
+   "version": "v0.57.0",
+   "purl": "pkg:golang/golang.org/x/net@v0.57.0",
+   "bom-ref": "go/golang.org/x/net@v0.57.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/sync",
+   "version": "v0.22.0",
+   "purl": "pkg:golang/golang.org/x/sync@v0.22.0",
+   "bom-ref": "go/golang.org/x/sync@v0.22.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/andrew-d/go-termutil",
+   "version": "v0.0.0-20150726205930-009166a695a2",
+   "purl": "pkg:golang/github.com/andrew-d/go-termutil@v0.0.0-20150726205930-009166a695a2",
+   "bom-ref": "go/github.com/andrew-d/go-termutil@v0.0.0-20150726205930-009166a695a2"
+  },
+  {
+   "type": "library",
+   "name": "github.com/hashicorp/errwrap",
+   "version": "v1.1.0",
+   "purl": "pkg:golang/github.com/hashicorp/errwrap@v1.1.0",
+   "bom-ref": "go/github.com/hashicorp/errwrap@v1.1.0"
+  },
+  {
+   "type": "library",
+   "name": "github.com/hashicorp/go-multierror",
+   "version": "v1.1.1",
+   "purl": "pkg:golang/github.com/hashicorp/go-multierror@v1.1.1",
+   "bom-ref": "go/github.com/hashicorp/go-multierror@v1.1.1"
+  },
+  {
+   "type": "library",
+   "name": "github.com/jpillora/ansi",
+   "version": "v1.0.3",
+   "purl": "pkg:golang/github.com/jpillora/ansi@v1.0.3",
+   "bom-ref": "go/github.com/jpillora/ansi@v1.0.3"
+  },
+  {
+   "type": "library",
+   "name": "github.com/posener/complete",
+   "version": "v1.2.3",
+   "purl": "pkg:golang/github.com/posener/complete@v1.2.3",
+   "bom-ref": "go/github.com/posener/complete@v1.2.3"
+  },
+  {
+   "type": "library",
+   "name": "github.com/tomasen/realip",
+   "version": "v0.0.0-20180522021738-f0c99a92ddce",
+   "purl": "pkg:golang/github.com/tomasen/realip@v0.0.0-20180522021738-f0c99a92ddce",
+   "bom-ref": "go/github.com/tomasen/realip@v0.0.0-20180522021738-f0c99a92ddce"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/sys",
+   "version": "v0.47.0",
+   "purl": "pkg:golang/golang.org/x/sys@v0.47.0",
+   "bom-ref": "go/golang.org/x/sys@v0.47.0"
+  },
+  {
+   "type": "library",
+   "name": "golang.org/x/text",
+   "version": "v0.41.0",
+   "purl": "pkg:golang/golang.org/x/text@v0.41.0",
+   "bom-ref": "go/golang.org/x/text@v0.41.0"
+  },
+  {
+   "type": "library",
+   "name": "@docusaurus/core",
+   "version": "3.10.2",
+   "purl": "pkg:npm/@docusaurus/core@3.10.2",
+   "bom-ref": "npm/@docusaurus/core@3.10.2"
+  },
+  {
+   "type": "library",
+   "name": "@docusaurus/plugin-client-redirects",
+   "version": "3.10.2",
+   "purl": "pkg:npm/@docusaurus/plugin-client-redirects@3.10.2",
+   "bom-ref": "npm/@docusaurus/plugin-client-redirects@3.10.2"
+  },
+  {
+   "type": "library",
+   "name": "@docusaurus/preset-classic",
+   "version": "3.10.2",
+   "purl": "pkg:npm/@docusaurus/preset-classic@3.10.2",
+   "bom-ref": "npm/@docusaurus/preset-classic@3.10.2"
+  },
+  {
+   "type": "library",
+   "name": "@mdx-js/react",
+   "version": "3.1.1",
+   "purl": "pkg:npm/@mdx-js/react@3.1.1",
+   "bom-ref": "npm/@mdx-js/react@3.1.1"
+  },
+  {
+   "type": "library",
+   "name": "clsx",
+   "version": "2.1.1",
+   "purl": "pkg:npm/clsx@2.1.1",
+   "bom-ref": "npm/clsx@2.1.1"
+  },
+  {
+   "type": "library",
+   "name": "prism-react-renderer",
+   "version": "2.4.1",
+   "purl": "pkg:npm/prism-react-renderer@2.4.1",
+   "bom-ref": "npm/prism-react-renderer@2.4.1"
+  },
+  {
+   "type": "library",
+   "name": "react",
+   "version": "19.2.0",
+   "purl": "pkg:npm/react@19.2.0",
+   "bom-ref": "npm/react@19.2.0"
+  },
+  {
+   "type": "library",
+   "name": "react-dom",
+   "version": "19.2.0",
+   "purl": "pkg:npm/react-dom@19.2.0",
+   "bom-ref": "npm/react-dom@19.2.0"
+  },
+  {
+   "type": "library",
+   "name": "@docusaurus/module-type-aliases",
+   "version": "3.10.2",
+   "purl": "pkg:npm/@docusaurus/module-type-aliases@3.10.2",
+   "bom-ref": "npm/@docusaurus/module-type-aliases@3.10.2"
+  },
+  {
+   "type": "library",
+   "name": "@docusaurus/types",
+   "version": "3.10.2",
+   "purl": "pkg:npm/@docusaurus/types@3.10.2",
+   "bom-ref": "npm/@docusaurus/types@3.10.2"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
